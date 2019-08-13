@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+/*
+theme Name: wordpressまとめサイトデザイン
+Author: amaisuna
+Description: まとめサイトのためのテーマ
+version： 1.0.0
+*/
+
+body {
+    /*フォントの指定*/
+    font-family: 'メイリオ', 'Meiryo', 'ヒラギノ角ゴ Pro', 'Hiragino Kaku Gothic Pro', 'Noto Sans Japanese', Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+    /*サイト全体のフォントサイズを指定*/
+    font-size: 16px;
+    /*行間の指定*/
+    line-height: 1.7;
+    /*サイト全体にかかるmarginをリセット*/
+    margin: 0;
+    /*サイト全体にかかるpaddingをリセット*/
+    padding: 0;
+    /*サイトのデフォルトとなる文字の色を指定*/
+    color: #333;
+  }
+   
+  /*見出しを全て太字で表示するように指定*/
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+  }
+  /*画像の最大幅を画面のサイズの最大幅に設定*/
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+   
+  /*ヘッダーの下に境界線を引く*/
+  header {
+    border-bottom: solid 1px #ddd;
+  }
+   
+  /*フッターの上に境界線を引く*/
+  footer {
+    border-top: solid 1px #ddd;
+  }
+   
+  
